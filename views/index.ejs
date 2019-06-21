@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/mynewslideJQ.js"></script>
+</head>
+<body>
+    <div class="login_mask">
+        <div class="loginPAGE">
+            <div class="closelogin"></div>
+            <div class="successtip">
+                </div>
+            <form action="" onsubmit="return false">
+                <span>登录</span>
+                <input type="text" id="username" name="username" placeholder="手机号">
+               
+                <input type="password" autocomplete="off" id="pwd" name="pwd" placeholder="密码">
+                <input type="submit" value="确定">
+                <a href="javascript:;">现在注册》</a>
+            </form>
+        </div>
+        <div class="registPAGE">
+                <div class="closeregist"></div>
+                <div class="successtip">
+                </div>
+                <form action="" onsubmit="return false">
+                    <span>注册</span>
+                    <label for="userphone" id="l1">账号</label>
+                    <input type="text" id="phoneNum"placeholder="请填写您的手机号">
+                    <label for="userpassword" id="l2">密码</label>
+                    <input type="password" id="rpassword" autocomplete="off" placeholder="你的账号密码">
+                    <label for="checkpassword" id="l3">确认密码</label>
+                    <input type="password" id="checkpassword" autocomplete="off" placeholder="请确认你的密码">
+                    <label for="checkpassword" id="l4">您的姓氏</label>
+                    <input type="text" id="xingshi" placeholder="留下您的姓氏如:&nbsp;陈">
+                    <label for="checkpassword" id="l5">性别</label>
+                    <input type="radio" name="sex" id="male" value="男士"><div class="man">男士</div>
+                    <input type="radio" name="sex" id="female" value="女士"><div class="women">女士</div>
+                    <p>*信息填写错误,请确认后重新输入</p>
+                    <input type="submit" value="注册">
+                    <a href="javascript:;">现在登录》</a>
+                </form>
+        </div>
+    </div>
+    <!-- 顶部 -->
+    <div class="header">
+       <div class="top-header" id="topheader">
+            <div class="headtop2" id="headtop2">
+                    <h1>
+                        <a href="/index" >波记二手车</a>
+                    </h1>
+                    <div id="city">
+                        <span>广州
+                        <i></i>
+                        </span>
+                    </div>
+                    <div id="citybox">
+                        <div id="cityboxleft">
+                        </div>
+                        <div id=cityboxright>
+                        </div>
+                    </div>
+                    <div class="uc">
+                        <%-loginmess%>
+                     </div>
+                    <div class="phone">
+                        热线电话 400-069-6527
+                    </div>
+                    <ul class="navlist">
+                        <li><a href="https://news.taoche.com/home/">二手车资讯</a></li>
+                        <li><a href="javascript:;">在线客服</a></li>
+                        <li>
+                            
+                                <%-gujiastr%>
+                                车辆评估</a>
+                        </li>
+                        <li><a href="/sellcar">我要卖车</a></li>
+                        <li><a href="/buycar">我要买车</a></li>
+                        <li class="active"><a href="/index">首页</a></li>
+                    </ul>
+        
+            </div>
+
+       </div>
+        <div class="headtop" id="headtop">
+            <h1>
+                <a href="/index" >波记二手车</a>
+            </h1>
+            <div id="city">
+                <span>广州
+                <i></i>
+                </span>
+            </div>
+            <div id="citybox">
+                <div id="cityboxleft">
+                    <dl></dl>
+
+                </div>
+                <div id=cityboxright>
+                    <dl></dl>
+                </div>
+            </div>
+
+            <div class="uc">
+                <%-loginmess%>
+                <!-- <a href="javascript:;">登录</a> -->
+             </div>
+            <div class="phone">
+                热线电话 400-069-6527
+            </div>
+            <ul class="navlist">
+                <li><a href="https://news.taoche.com/home/">二手车资讯</a></li>
+                <li><a href="javascript:;">在线客服</a></li>
+                <li>
+                    <%-gujiastr%>
+                    车辆评估</a></li> 
+                <li><a href="/sellcar">我要卖车</a></li>
+                <li><a href="/buycar">我要买车</a></li>
+                <li class="active"><a href="/index">首页</a></li>
+            </ul>
+
+        </div>
+        </div>
+    <!-- 买卖车功能导航 -->
+    <div class="buysellcar">
+            <div class="lineleft"></div>
+            <div class="lineright"></div>
+            <div class="buycar fl">
+                <div class="buyselltitle clearfix">
+                    <a href="#" class="fl">我要买车
+                        <i class="iconbuysell"></i>
+                    </a>
+                    <div class="search">
+                            <div class="index-title"></div>
+                            <div class="search-box">
+                                <form action="">
+                            <input type="text" class="searchtxt" placeholder="请输入关键词，例如：君越  2.4L">
+                            <input type="button" class="searchbtn" value="搜索">
+                                </form>
+                            </div>
+                    </div>
+                </div>
+                <div class="buycarbrand clearfix">
+                    <a href="#"><img src="./img/honda.png" alt="">本田</a>
+                    <a href="#"><img src="./img/toyota.png" alt="">丰田</a>
+                    <a href="#"><img src="./img/richan.png" alt="">日产</a>
+                    <a href="#"><img src="./img/dazhong.png" alt="">大众</a>
+                    <a href="#"><img src="./img/bmw.png" alt="">宝马</a>
+                    <a href="#"><img src="./img/buick.png" alt="">别克</a>
+                    <a href="#"><img src="./img/ford.png" alt="">福特</a>
+                </div>
+                <div class="buycarbrand clearfix marginTop13">
+                    <a href="#"><img src="./img/chuanqi1.png" alt="">传祺</a>
+                    <a href="#"><img src="./img/audi.png" alt="">奥迪</a>
+                    <a href="#"><img src="./img/benz.png" alt="">奔驰</a>
+                    <a href="#"><img src="./img/byd.png" alt="">比亚迪</a>
+                    <a href="#"><img src="./img/hyundai.png" alt="">现代</a>
+                    <a href="#"><img src="./img/hafu.png" alt="">哈弗</a>
+                    <a href="#">全部品牌</a>
+                </div>
+
+                <div class="buycarprice ">
+                    <a href="#">3万以下</a>
+                    <a href="#">3-5万</a>
+                    <a href="#">5-7万</a>
+                    <a href="#">7-9万</a>
+                    <a href="#">9-12万</a>
+                    <a href="#">12-16万</a>
+                    <a href="#">16-20万</a>
+                </div>
+                <div class="buycarprice marginTop7">
+                    <a href="#">超值</a>
+                    <a href="#">急售</a>
+                    <a href="#">练手车</a>
+                    <a href="#">准新车</a>
+                    <a href="#">严选车</a>
+                    <a href="#">SUV</a>
+                    <a href="#">查看更多</a>
+                </div>
+            </div>
+
+             <div class="sellcar fr">
+                <div class="sunhonglei"></div>
+                <div class="buyselltitle  clearfix">
+                    <a href="#" class="fl">
+                        我要卖车
+                        <i class="iconbuysell"></i>
+                    </a>
+                    <div class="sellcarshow fr">
+                        <p class="amount">
+                            瓜子保卖，当天拿钱，全程代办
+                        </p>
+                    </div>
+                </div>
+                <div class="sellcarbox clearfix" id=>
+                    <div class="sellcarphone clearfix">
+                        <input type="text" class="phone-inp" placeholder="请输入您的手机号">
+                        <div class="phone-btn">预约卖车</div>
+                        <div id="gujia">爱车估价</div>
+                        <div id="baomai">保卖服务</div>
+                    </div>
+                </div>
+             </div>
+
+        
+
+    </div>
+    <!-- 选项卡 -->
+    <div class="index-channel-new-bg">
+        <ul class="index-channel-new clearfix">
+            <li class="index-channel-1 active"><span></span></li>
+            <li class="index-channel-2"><span></span></li>
+            <li class="index-channel-3"><span></span></li>
+            <li class="index-channel-4"><span></span></li>
+        </ul>
+        <div class="index-channel-car">
+
+            <div class="channel-prev"><i id="prevI"></i></div>
+            <div class="index-channel-carBox ershouche active">
+                <ul class="index-channel-carList"></ul>
+            </div>
+            <div class="index-channel-carBox yanxuanche">
+                    <ul class="index-channel-carList"></ul>
+            </div>
+            <div class="index-channel-carBox forsell">
+                    <ul class="index-channel-carList"></ul>
+            </div>
+            <div class="index-channel-carBox jr">
+                    <ul class="index-channel-carList"></ul>
+            </div>
+            <div class="channel-next"><i class="on" id="nextI"></i></div>
+
+        </div>
+    </div>
+    
+    <!-- 热卖车型 -->
+    <div class="index-carlist-bg">
+        <div class="carlist-title">热卖车型</div>
+        <ul class="index-carlist">
+            <li><span>猜你喜欢</span></li>
+            <li><span>严选车</span></li>
+            <li><span>最新上架</span></li>
+            <li><span>降价急售</span></li>
+            <li><span>准新车</span></li>
+            <li><span>练手车</span></li>
+            <li><span>SUV</span></li>
+        </ul>
+  
+        <!--猜你喜欢-->
+        <div class="index-carlist-box active js-rec">
+            <ul class="carlist clearfix"></ul>
+            <div class="carmore">
+                    <a href="#">
+                        更多猜您喜欢
+                        <i class="iconbg"></i>
+                    </a>
+                </div>
+        </div>
+        <!--严选车-->
+        <div class="index-carlist-box js-baomai">
+                <ul class="carlist clearfix"></ul>
+                <div class="carmore">
+                    <a href="#">
+                        更多严选车
+                        <i class="iconbg"></i>
+                    </a>
+                </div>
+        </div>
+        <!-- 新车上架 -->
+        <div class="index-carlist-box js-new">
+                <ul class="carlist clearfix"></ul>
+                <div class="carmore">
+                    <a href="#">
+                        更多最新上架
+                        <i class="iconbg"></i>
+                    </a>
+                </div>
+        </div>
+        <!-- 降价急售 -->
+        <div class="index-carlist-box js-jiangjia">
+                <ul class="carlist clearfix"></ul>
+                <div class="carmore">
+                    <a href="#">
+                        更多降价急售
+                        <i class="iconbg"></i>
+                    </a>
+                </div>
+        </div>
+        <!-- 准新车 -->
+        <div class="index-carlist-box js-zhunxin">
+                <ul class="carlist clearfix"></ul>
+                <div class="carmore">
+                    <a href="#">
+                        更多准新车
+                        <i class="iconbg"></i>
+                    </a>
+                </div>
+        </div>
+        <!-- 新手车 -->
+        <div class="index-carlist-box js-lianshou">
+                <ul class="carlist clearfix"></ul>
+                <div class="carmore">
+                    <a href="#">
+                        更多练手车
+                        <i class="iconbg"></i>
+                    </a>
+                </div>
+        </div>
+        <!-- SUV -->
+        <div class="index-carlist-box js-suv">
+                <ul class="carlist clearfix"></ul>
+                <div class="carmore">
+                    <a href="#">
+                        更多SUV
+                        <i class="iconbg"></i>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <!-- 二手车资讯 -->
+    <div class="index-channel-operate">
+        <div class="channel-operate-title">
+            <h3>二手车资讯</h3>
+        </div>
+        <div class="sliderbox">
+            <ul>
+                <li><a><img src="./img/lunbotupian1.jpg" alt="">辨别二手事故车看这三个地方就够了</a></li>
+               <li> <a><img src="./img/lunbotupian2.jpg" alt="">全新速腾来了 三大件相同的车4年前就有</a></li>
+               <li> <a><img src="./img/lunbotupian3.jpg" alt="">苏家人的四辆车 哪辆才是你的菜？</a></li>
+               <li> <a><img src="./img/lunbotupian4.jpg" alt="">1万块钱买个车 竟然能跑赢高尔夫</a></li>
+            </ul>
+        </div>
+        <div class="ershounews">
+            <div class="ershounewsleft">
+                <ul>
+                    <li><a href="">C1驾照可以开哪些车？终于弄清楚</a> </li>
+                    <li><a href="">买二手车遇到揪心问题了怎么办</a></li>
+                    <li><a href="">月薪3500元选二手车就买这四款</a></li>
+                    <li><a href="">5万元左右三款自主车型推荐</a></li>
+                    <li><a href="">4万就可以买的后驱“奔驰”</a></li>
+                </ul>
+            </div>
+            <div class="ershounewsright">
+                <ul>
+                    <li><a href="">2019新能源汽车补贴政策正式发布</a></li>
+                    <li><a href="">2018年十大保值MPV出炉 第一名超神</a></li>
+                    <li><a href="">苏家人的四辆车哪款才是你的菜？</a></li>
+                    <li><a href="">月入2000元买这3款车实惠又好开</a></li>
+                    <li><a href="">只要4万元的日系精品小车能开到报废</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        $(function(){
+            $(".sliderbox").slider("256px","290px");
+        })
+        
+    </script>
+    <!-- 买卖流程 -->
+    <div class="index-buy-sell-step">
+        <div class="step-tab">
+            <span class="buy-step  active">买车流程</span>
+            <em>|</em>
+            <span class="sell-step">卖车流程</span>
+        </div>
+        <div class="slide-mask"></div>
+        <div class="slide-area">
+            <ul class="slide-list">
+               
+            </ul>
+        </div>
+        <!-- 买车流程 -->
+        <div class="step-slide buycar-step active">
+            <ul class="slide-items buy">
+                <li class="item-buy-order  active">
+                    <p class="slide-title">预约看车</p>
+                    <p class="slide-text">拨打XXX-XXX-XXXX或在线预约</p>
+                    <p class="slide-icon icon-buy-order">
+                        <span class="icon-step"></span>
+                        预约看车
+                        <i class="icon-step"></i>
+                    </p>
+                </li>
+                <li class="item-buy-see">
+                        <p class="slide-title">专人带看</p>
+                        <p class="slide-text">波记将安排售车顾问陪同您看车</p>
+                        <p class="slide-icon icon-buy-see">
+                            <span class="icon-step"></span>
+                            专人带看
+                            <i class="icon-step"></i>
+                        </p>
+                </li>
+                <li class="item-buy-contract">
+                        <p class="slide-title">签署合同</p>
+                        <p class="slide-text">签署三方合同(买家、卖家、波记二手车),支付定金</p>
+                        <p class="slide-icon icon-buy-contract">
+                            <span class="icon-step"></span>
+                            签署合同
+                            <i class="icon-step"></i>
+                        </p>
+                </li>
+                <li class="item-buy-deal">
+                        <p class="slide-title">交易过户</p>
+                        <p class="slide-text">协助过户，支付车款，好车开回家</p>
+                        <p class="slide-icon icon-buy-deal">
+                            <span class="icon-step"></span>
+                            交易过户
+                            <i class="icon-step"></i>
+                        </p>
+                </li>
+            </ul>
+        </div>
+        <!-- 卖车流程 -->
+        <div class="step-slide sellcar-step">
+            <ul class="slide-items sell">
+               <li class="item-sell-info">
+                    <p class="slide-title">在线预约</p>
+                        <p class="slide-text">通过在线评估可立即预约</p>
+                        <p class="slide-icon icon-sell-info">
+                            <span class="icon-step"></span>
+                            在线预约
+                            <i class="icon-step"></i>
+                    </p>
+               </li>
+               <li class="item-sell-service">
+                    <p class="slide-title">全网代售</p>
+                        <p class="slide-text">海量买家快速售出</p>
+                        <p class="slide-icon icon-sell-service">
+                            <span class="icon-step"></span>
+                            全网代售
+                            <i class="icon-step"></i>
+                    </p>
+               </li>
+               <li class="item-sell-see">
+                    <p class="slide-title">三方约看</p>
+                        <p class="slide-text">平均7日成交</p>
+                        <p class="slide-icon icon-sell-see">
+                            <span class="icon-step"></span>
+                            三方约看
+                            <i class="icon-step"></i>
+                    </p>
+               </li>
+               <li class="item-sell-deal">
+                    <p class="slide-title">签约过户</p>
+                        <p class="slide-text">省心省时，全程陪同</p>
+                        <p class="slide-icon icon-sell-deal">
+                            <span class="icon-step"></span>
+                            签约过户
+                            <i class="icon-step"></i>
+                    </p>
+               </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 波记问答 -->
+    <div class="problem">
+        <div class="problem-tit">F A Q</div>
+        <ul class="problem-list">
+            <li class="problem-item">
+                <div class="problem-item-tit">
+                    在波记二手车上买二手车可以办理贷款吗？
+                </div>
+                <div class="problem-item-con">
+                    可以的，目前与波记合作有信用贷抵押贷，可点击波记二手车官网页面上的“分期购车”，详细了解贷款产品的情况；也可直接拨打波记二手车金融客服热线XXX-XXX-XXXX进行咨询。
+                </div>
+            </li>
+            <li class="problem-item">
+                <div class="problem-item-tit">
+                    波记二手车直卖网对售出的车辆提供哪些保障？
+                </div>
+                <div class="problem-item-con">
+                    对于符合波记延保标准的车辆，会赠送一年或2万公里的质保，保发动机和变速箱。延保相关部门会在签订延保合同后的两个工作日内进行审核，审核通过之日延保立即生效。
+                </div>
+            </li>
+            <li class="problem-item">
+                <div class="problem-item-tit">
+                    波记二手车直卖网的车辆异地可以看车吗？
+                </div>
+                <div class="problem-item-con">
+                    可以，不过请您在异地看车之前务必先和我们的销售取得联系，确认车辆的在售情况，以免您异地看车时出现车辆已售的情况耽误您的时间。
+                </div>
+            </li>
+            <li class="problem-item">
+                <div class="problem-item-tit">
+                    波记二手车直卖网的优势？
+                </div>
+                <div class="problem-item-con">
+                    波记二手车网的车辆均经由专业评估系统评估，有保障，并且售出车辆经检查有质量问题的，支持14日内退车。
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- 底部图片 -->
+    <div class="index-foot-buysell">
+        <div class="footbuysell clearfix">
+            <p class="foot-buysell-tel fl">
+                <span class="iconbg"></span>
+                免费咨询电话：XXX-XXX-XXXX
+            </p>
+            <div class="foot-buysell-btn fl">
+                <a href="#" class="foot-btn-buy">我要买车</a>
+                <a href="#" class="foot-btn-sell">我要卖车</a>
+            </div>
+        </div>
+    </div>
+    <!-- 右侧固定浮层 -->
+    <div class="right-nav" id="rightNav">
+        <div class="fix-right js-sidebar">
+            <!-- <div class="fix-icon fix-icon-history">
+                <div class="history-bar">
+                    <h3 class="history-title">我看过的车</h3>
+                </div>
+            </div> -->
+            <div class="fix-icon fix-icon-app">
+                <div class="app-bar">
+                    <span></span>
+                    <p>下载app关注更多信息</p>
+                </div>
+            </div>
+            <div class="fix-icon fix-icon-wechat">
+                <div class="wx-bar">
+                    <span></span>
+                    <p>关注公众号了解更多信息</p>
+                </div>
+            </div>
+            <div class="fix-icon fix-icon-feedback">
+                <div class="feedback-bar">意见反馈</div>
+            </div>
+            <div class="fix-icon fix-icon-phone">
+                <div class="phone-bar">免费咨询：XXX-XXX-XXXX</div>
+            </div>
+            <div class="fix-icon fix-icon-backtop"></div>
+            <div class="fix-icon side-bar-line"></div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <img src="./img/footer.png" alt="">
+    </div>
+</body>
+</html>
+

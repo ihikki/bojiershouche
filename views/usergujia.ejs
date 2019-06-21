@@ -1,0 +1,65 @@
+<script src="./js/jquery.js"></script>
+<script src="./js/template-web.js"></script>
+<script type="text/html" id="gujiajs">
+  <div class="media-left pingjiimg">
+      <a href="#">
+        <%-picture%>
+        <!-- <img class="media-object" src="" alt=""> -->
+      </a>
+    </div>
+    <div class="media-body">
+      <h3 class="media-heading">您的评级结果为：
+        <%=carlevel%>
+        级</h3>
+
+      <div class="pingguxinxi">
+        <h4 class="media-heading">评估车辆信息：</h4>
+        <ul class="list-group">
+          <li class="list-group-item">车源地：
+            <%=carfrom%>
+          </li>
+          <li class="list-group-item">车型：
+            <%=cartype%>
+          </li>
+          <li class="list-group-item">上牌时间：
+            <%=sptime%>  
+          </li>
+          <li class="list-group-item">行驶里程：
+            <%=distance%>
+          </li>
+          <li class="list-group-item">发生重大事故次数：
+            <%=hadtru%>
+          </li>
+        </ul>
+        <h3 class="media-heading">您的车辆预估报价为：<%=carprice%>万元</h3>
+      </div>
+    </div>
+</script>
+<div class="media" id="curinfo">
+</div>
+<script>
+  console.log(111)
+  $.ajax({
+    url:"http://127.0.0.1:3000/gujia/getmypinggu",
+    data:{},
+    dataType:"jsonp",
+    success:function(data){
+      console.log(data)
+      if(data.carlevel=="A"){
+        data.picture=`<img class="media-object" src="./img/A_Letter.png" alt="">`
+      }
+      else if(data.carlevel=="B"){
+        data.picture=`<img class="media-object" src="./img/B_Letter.png" alt="">`
+      }
+      else if(data.carlevel=="C"){
+        data.picture=`<img class="media-object" src="./img/C_Letter.png" alt="">`
+      }
+      else {
+        data.picture=`<img class="media-object" src="./img/X_Letter.png" alt="">`
+      }
+      var html=template('gujiajs',data)
+      $("#curinfo").html(html)
+    }
+  })
+ 
+</script>

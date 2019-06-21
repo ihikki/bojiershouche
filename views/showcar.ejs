@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/showcar.css">
+    <script src="./js/showcar.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="header">
+        <div class="headtop2" id="headtop2">
+            <h1  class="clearmargin">
+                <a href="/index" >波记二手车</a>
+            </h1>
+            <div id="city">
+                <span>广州
+                <i></i>
+                </span>
+            </div>
+            <div id="citybox">
+                <div id="cityboxleft">
+                </div>
+                <div id=cityboxright>
+                </div>
+            </div>
+
+            <div class="uc">
+                <%-loginmess%>
+             </div>
+            <div class="phone">
+                热线电话 400-069-6527
+            </div>
+            <ul class="navlist">
+                <li><a href="https://news.taoche.com/home/">二手车资讯</a></li>
+                <li><a href="javascript:;">在线客服</a></li>
+                <li>
+                    <%-gujiastr%>
+                    车辆评估</a></li> 
+                <li><a href="/sellcar">我要卖车</a></li>
+                <li><a href="/buycar">我要买车</a></li>
+                <li><a href="/index">首页</a></li>
+            </ul>
+
+    </div>
+        </div>
+        <div class="main">
+            <!-- 导航 -->
+            <div class="placeon clearfix">
+                <div class="left-nav">
+                    <a href="#">首页</a>
+                    >
+                    <a href="#">广州二手车</a>
+                    >
+                    <a href="#">广州奥迪二手车</a>
+                    >
+                    奥迪A5 2017款 Cabriolet 40 TFSI 时尚型(进口)
+                </div>
+                <div class="right-nav">
+                    车源号 ：HC-78315511
+                </div>
+            </div>
+            <!-- 车辆信息 -->
+            <div class="car_message clearfix">
+                <!-- 左边内容 -->
+                <div class="left_con">
+                    <!-- 大图开始 -->
+                    <div class="bigimgbox">
+                        <!-- 当前图片编号 -->
+                        <div class="page-number">
+                            <span class="f20">1</span>/30
+                        </div>
+                        <!-- 大图左右按钮 -->
+                        <a href="javascript:;" class="prev"></a>
+                        <a href="javascript:;" class="next"></a>
+                        <ul class="picside">
+                            <li class="bigpic">
+                                <img data-src=<%=imgsrc%> src=<%=imgsrc%> alt="奥迪A5 2017款 Cabriolet 40 TFSI 时尚型(进口)">
+                                    
+                                    
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 大图结束 -->
+                    <!-- 小图开始 -->
+                    <div class="smallimgbox">
+                        <div class="wrapper">
+                            <div>
+                                <ul class="clearfix" style="position: relative;">
+                                    <li class="hoverimg active">
+                                        <span class="green-border"></span>
+                                        <img src= <%=imgsrc1%> >
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- 小图左右按钮 -->
+                            <a href="javascript:;" class="prev-smallimg"></a>
+                            <a href="javascript:;" class="next-smallimg"></a>
+                        </div>
+                    </div>
+                    <!-- 小图结束 -->
+                </div>
+                <!-- 左边结束 -->
+                <!-- 右边 -->
+                <div class="right_con">
+                    <!-- 标题及标签 -->
+                    <h2 class="titlebox">
+                        <%=title%>
+                        <span class="labels">准新车</span>
+                        <span class="labels">0过户</span>
+                    </h2>
+                    <!-- 一级车辆信息 -->
+                    <ul class="assort clearfix">
+                        <li class="one"><span><%=sptime%></span>上牌时间</li>
+                        <li class="two"><span><%=distance%></span>表显里程</li>
+                        <li class="three"><span>广州</span>上牌地</li>
+                        <li class="three"><span><%=pail%></span>排量</li>
+                        <li class="last"><span><%=biansx%></span>变速箱</li>
+                    </ul>
+                    <!-- 车辆报价 -->
+                    <div class="pricebox">
+                        <i class="ico-type">车主报价：</i>
+                        <span class="pricestype">¥<%=price%>
+                            <span class="f14">万</span></span>
+                        <span class="newcarprice">
+                            新车指导价<%=sprice%>万(含税)
+                        </span>
+                    </div>
+                    <!-- 车辆服务保障 -->
+                    <div class="service-protect-vip">
+                        <div class="service-protect-title clearfix">
+                            <i class="text-service">服务保障</i>
+                            <i class="text-service-gray">服务费不超过9%，详情到店咨询</i>
+                            <a class="look-detail" href="javascript:;">查看详情<i class="icon-gray-right7x11"></i></a>
+                        </div>
+                        <ul class="service-protect-list clearfix">
+                            <li>
+                                <i class="icon-one"></i>
+                                <span>2年4万公里保障</span>
+                            </li>
+                            <li>
+                                <i class="icon-two"></i>
+                                <span>30天无忧退</span>
+                            </li>
+                            <li>
+                                <i class="icon-three"></i>
+                                <span>专业整备</span>
+                            </li>
+                            <li>
+                                <i class="icon-four"></i>
+                                <span>代办过户</span>
+                            </li>
+                            <li>
+                                <i class="icon-five"></i>
+                                <span>调表车赔付</span>
+                            </li>
+                            <li>
+                                <i class="icon-six"></i>
+                                <span>精选车源</span>
+                            </li>
+                            <li>
+                                <i class="icon-seven"></i>
+                                <span title="盗抢查封、销赃车，必退">盗抢查封、销赃车，必退</span>
+                            </li>
+                            <li>
+                                <i class="icon-eight"></i>
+                                <span>259项检测</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 服务按钮 -->
+                    <div class="btnbox clearfix">
+                        <a href="" class="orgbtn" id="yuyue">预约看车</a>
+                        <a href="" class="grebtn">我要砍价</a>
+                        <a href="" class="freephone">免费咨询</a>
+                    </div>
+                </div>
+                <!-- 右边结束 -->
+            </div>
+            <!-- 基本信息开始 -->
+            <div class="basic-infor">
+                <div class="titlediv">
+                    <span>基本信息</span>
+                </div>
+                <dl class="people-infor clearfix">
+                    <dt>
+                        <span class="f20">车主：<%=carowner%></span>
+                        <a href="javascript:;" class="ask-car">
+                            <i class="icon-phone-white"></i>
+                            咨询看车
+                            <span class="layer-tip bottom-layer">
+                                <i class="icon-small-sanjiao"></i>
+                                咨询电话：<i class="fc-green">400-069-6530</i>
+                            </span>
+                        </a>
+                    </dt>
+                </dl>
+                <ul class="basic-eight clearfix">
+                    <li class="one">
+                        <div class="typebox"><%=sptime%></div>上牌时间
+                    </li>
+                    <li class="two">
+                        <div class="typebox"><%=distance%>万公里</div>表显里程
+                    </li>
+                    <li class="three">
+                        <div class="typebox">广州</div>上牌地
+                    </li>
+                    <li class="five">
+                        <div class="typebox"><%=biansx%></div>变速箱
+                    </li>
+                    <li class="six">
+                        <div class="typebox"><%=pail%></div>排量
+                    </li>
+                    <li class="eight">
+                        <div class="typebox"><%=lookcar%></div>看车地点
+                    </li>
+                    <li class="nine">
+                        <div class="typebox"><%=nianj%></div>年检到期
+                    </li>
+                    <li class="ten">
+                        <div class="typebox"><%=jiaoqx%></div>交强险
+                    </li>
+                </ul>
+            </div>
+            <!-- 基本信息结束 -->
+            <!-- 问答开始 -->
+            <div class="quest">
+                <div class="center">
+                    <h2 class="t-big">购车问答</h2>
+                    <div class="green-icon-center"></div>
+                    <table class="aq-list">
+                        <tbody>
+                            <tr>
+                                <td class="t1" valign="top">
+                                    <dl class="clearfix">
+                                        <dt><span class="icon-men7"></span></dt>
+                                        <dd>
+                                            <div class="askbox">
+                                                <span class="icon-triangle-gray-left"></span>如何在波记买车？
+                                            </div>
+                                            <div class="q-con">1、拨打看车电话&nbsp;<i
+                                                    class="fc-green">400-069-6530</i>&nbsp;或在线预约登记<br>
+                                                2、由波记二手车网购车顾问陪您上门看车<br>
+                                                3、看车满意，签署三方合同，支付定金<br>
+                                                4、波记协助过户，支付全款完成交易，好车开回家
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </td>
+                                <td class="t2" valign="top">
+                                    <dl class="clearfix">
+                                        <dt><span class="icon-men8"></span></dt>
+                                        <dd>
+                                            <div class="askbox">
+                                                <span class="icon-triangle-gray-left"></span>为何选择波记二手车？
+                                            </div>
+                                            <div class="q-con">1、靠谱车况：专业检测师团队，259项检测，杜绝事故车，全程担保<br>
+                                                2、轻松买车：专业购车顾问陪您看车，协助过户，买车放心不被蒙<br>
+                                                3、售后保障：30天可退,1年2万公里维修保障，为你的爱车保驾护航
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="t1" valign="top">
+                                    <dl class="clearfix">
+                                        <dt><span class="icon-men1"></span></dt>
+                                        <dd>
+                                            <div class="askbox">
+                                                <span class="icon-triangle-gray-left"></span>牌照能过户吗？
+                                            </div>
+                                            <div class="q-con">根据《机动车登记规定》法规，二手车牌照是不能过户的。</div>
+                                        </dd>
+                                    </dl>
+                                </td>
+                                <td class="t2" valign="top">
+                                    <dl class="clearfix">
+                                        <dt><span class="icon-men2"></span></dt>
+                                        <dd>
+                                            <div class="askbox">
+                                                <span class="icon-triangle-gray-left"></span>可否贷款?
+                                            </div>
+                                            <div class="">
+                                                <div class="q-con">
+                                                    该车符合瓜子金融贷款要求，推荐首期款12万元，月付9682元。
+                                                </div>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="t1" valign="top">
+                                    <dl class="clearfix">
+                                        <dt><span class="icon-men3"></span></dt>
+                                        <dd>
+                                            <div class="askbox">
+                                                <span class="icon-triangle-gray-left"></span>服务费怎么算？
+                                            </div>
+                                            <div class="q-con">交易成功后，瓜子会向买方收取一定服务费。买方支付服务费后，可享车辆维修保障、30天可退等多项售后服务。</div>
+                                        </dd>
+                                    </dl>
+                                </td>
+                                <td class="t2" valign="top">
+                                    <dl class="clearfix">
+                                        <dt><span class="icon-men4"></span></dt>
+                                        <dd>
+                                            <div class="askbox">
+                                                <span class="icon-triangle-gray-left"></span>车辆怎么过户？
+                                            </div>
+                                            <div class="q-con">车辆过户需关注车辆是否符合上牌地的迁入标准，具体的过户流程在买车过程中我平台提供过户服务。</div>
+                                        </dd>
+                                    </dl>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="t1" valign="top">
+                                    <dl class="clearfix">
+                                        <dt><span class="icon-men5"></span></dt>
+                                        <dd>
+                                            <div class="askbox">
+                                                <span class="icon-triangle-gray-left"></span>保险怎么办？
+                                            </div>
+                                            <div class="q-con">方案1：保险过户：车辆在车管所完成过户后，新车主带着本人证件和原车主身份证，到原保险公司办理过户；<br>
+                                                方案2：申请退保（交强险无法退保）：原车主只缴纳从投保开始到退保期间的保费，其他的保费保险公司会相应退还。之后，新车主就可到任何一家保险公司重新办理车险。
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </td>
+                                <td class="t2" valign="top">
+                                    <dl class="clearfix">
+                                        <dt><span class="icon-men6"></span></dt>
+                                        <dd>
+                                            <div class="askbox">
+                                                <span class="icon-triangle-gray-left"></span>车况真实吗？
+                                            </div>
+                                            <div class="q-con">瓜子上架车辆均是经过259项专业检测，在交易签署合同前会再次陪同买家进行深度复检，确保车况信息完全披露给买家。
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- 问答结束 -->
+        </div>
+        <!-- 底部 -->
+        <div class="footer">
+            <img src="./img/footer.png" alt="">
+        </div>
+</body>
+
+</html>

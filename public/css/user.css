@@ -1,0 +1,285 @@
+body{
+    background-color: #f8f8f8;
+}
+.user_main{
+    width: 1100px;
+    margin: 33px auto;
+    overflow: hidden;
+}
+
+.user_left_con{
+    float: left;
+    width: 148px;
+    margin-right: 20px;
+}
+
+
+.user_left_con_fix{
+    position: fixed;
+    top: 10px;
+    z-index: 10;
+}
+
+.user_left_con,.user_right_con{
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+}
+
+.user_right_con{
+    float: left;
+    width: 928px;
+    padding-top: 20px;
+    min-height: 400px;
+}
+
+.user_img{
+    background: url("../img/user_img.png") no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 30px auto 10px;
+}
+
+.user_info {
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #495056;
+    text-align: center;
+}
+
+.user_info span{
+    display: block;
+    font-size: 12px;
+    color: #a5abb2;
+}
+
+.user_menu a{
+        display: block;
+        font-size: 16px;
+        line-height: 50px;
+        color: #495056;
+        text-align: center;
+}
+
+.user_menu a.active, .user_menu a:hover {
+    color: #fff;
+    background-color: #22ac38;
+    text-decoration: none;
+}
+
+.user_right_con .mybook{
+width: 700px;
+margin:0 auto;
+}
+
+.mybook em{
+    padding: 0 10px;
+}
+
+.ctlbtn{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    right: 15px;
+    top: 15px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    box-shadow:inset 0 0 5px 1px snow;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+
+.contmenu{
+    float: right;
+    padding:8px;
+}
+
+.cannelbtn{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background: rgba(255,0,0,0.6);
+    border-radius: 14px;
+    margin: 2px 0 0 6px;
+    box-shadow: 0 0 5px 1px salmon;
+}
+.cannelbtn span{
+    font-size: 23px;
+}
+/* 无售车，无预约样式 */
+.nosellingcar,.nobooking{
+    margin: 100px auto;
+    text-align: center
+}
+
+.myselling_carlist{
+    padding-left:  13px;
+}
+
+.myselling_carlist .mysellcar{
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 290px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background: #fff;
+    border: 2px solid #f5f5f5;
+}
+
+.mysellcar .mysellcar_img{
+    display: block;
+    width: 290px;
+    height: 194px;
+}
+.sellcar_name{
+    display: block;
+    padding: 12px 10px 8px;
+}
+
+.sellcar_name h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    line-height: 1em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0;
+}
+.sellcar_mile{
+    padding: 0 10px;
+    font-size: 12px;
+    color: #999;
+    margin: 0;
+}
+
+.sellcar_mile em{
+    margin: 0 10px;
+    color: #ddd;
+}
+
+.sellcar_price{
+    padding: 0 10px;
+    margin: 0;
+}
+
+.price-curr{
+    margin-right: 5px;
+    font-size: 20px;
+    color: #f76367;
+
+}
+
+.price-through {
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.sellcar_ctrl{
+    position: absolute;
+    right: 4px;
+    bottom: 8px;
+}
+.sellcar_ctrl span{
+    color: coral;
+}
+.sellcar_ctrl button{
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 0px 0px 2px 1px #ccc;
+    background: linear-gradient(to right, #ff9569 0%, #e92758 100%);
+    color: #fff;
+    text-shadow:-1px -1px 1px #000;
+}
+
+.sellcar_ctrl .readyup{
+    background: linear-gradient(to right, #69ff71 0%, #04880f 100%);
+}
+.sellcar_ctrl .changeprice_btn{
+    background:  linear-gradient(to right, #ffdc69 0%, #eba420 100%);
+}
+
+.price_mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    z-index: 10;
+    display: none;
+}
+
+.changeprice_con{
+    width: 400px;
+    height: 250px;
+    background: #fff;
+    text-align: center;
+    padding-top: 110px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px #ccc;
+}
+.changeprice_con input[type="text"]{
+    width: 140px;
+    height: 35px;
+    font-size: 15px;
+    border-radius:5px;
+    text-indent: 15px;
+    box-shadow:inset 0 0 5px 1px skyblue;
+}
+
+.changeprice_con span{
+    position: relative;
+    font-size: 15px;
+    right: 30px;
+    color: #e92758;
+}
+
+.changeprice_con input[type="submit"]{
+    padding: 4px;
+    background:  #69ff71;
+    box-shadow: 0 0 5px 1px #69ff71;
+    border-radius:4px;
+    color: #000;
+}
+
+.changeprice_con input[type="button"]{
+    margin-left: 10px;
+    padding: 4px;
+    background: #e92758;
+    box-shadow: 0 0 5px 1px #e92758;
+    border-radius:4px;
+    color: #000;
+}
+
+.f_r{
+float: right;
+margin-right: 30px;
+}
+
+.myinfo{
+    padding-top: 40px;
+}
+.myinfo li{
+    font-size: 13px;
+}
+.myinfo li input{
+    margin-top: 4px;
+}
+.myinfo li span{
+height: 16px;
+font-size: 15px;
+margin-bottom: 4px;
+}
+
+.check_btn{
+padding-bottom: 10px;
+}

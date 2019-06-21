@@ -1,0 +1,204 @@
+.header .adv{
+    width: 1200px;
+    height: 300px;
+    background: url("../img/banner-2.jpg") no-repeat;
+    background-size: 100%;
+    margin: 10px auto;
+}
+
+.main_content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.phonebook{
+    width: 600px;
+    margin: 20px auto;
+}
+.sell_bg{
+
+        width: 1200px;
+        height: 410px;
+        padding-top: 50px;
+        background: #fff;
+    
+}
+.sell-title {
+    width: 630px;
+    height: 36px;
+    background: url("../img/index-title.png") no-repeat;
+    margin: 0px auto ;
+    margin-top: 170px;
+    background-position: -67px -101px;
+    /* position: absolute;
+    top: -54.5px; */
+}
+
+.sell_bg .sell_txt{
+    font-size: 32px;
+    color: #da8a49;
+    line-height: 48px;
+    text-align: center;
+}
+
+.sell_ul{
+    padding-top: 23px;
+    width: 1086px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sell_ul li{
+    width: 362px;
+    height: 255px;
+    float: left;
+}
+
+.sell_ul li .sell_bg_img{
+    width: 114px;
+    height: 114px;
+    margin: 0 auto 15px;
+    background-repeat: no-repeat;
+}
+
+.sell_bg_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.sell_txt_tit{
+    font-size: 20px;
+    color: #373b3f;
+    line-height: 38px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.sell_txt_con{
+    font-size: 16px;
+    color: #7a838d;
+    line-height: 26px;
+    text-align: center;
+}
+
+.sellcar_gujia{
+    height: 300px;
+    background: url("../img/pinggu.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.sellcar_gujia .right_con{
+    width: 380px;
+    height:180px;
+    float:right;
+    margin-right: 20px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 50px 0px #6acbf8;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.qupinggu{
+    margin: 0px auto;
+    margin-top: 30px;
+    width: 244px;
+    padding: 5px;
+}
+
+.quest{
+        margin-top: 20px;
+        height: 662px;
+        background: #f8f8f8;
+}
+
+.quest_tit{
+    padding: 50px 0 100px 0;
+    font-size: 24px;
+    color: #495056;
+    line-height: 44px;
+    text-align: center;
+    /* box-shadow:inset 0 0 10px  1px #c6c6c6; */
+}
+
+.quest_con .left_con{
+    float: left;
+}
+
+.quest_con .right_con{
+    float: right;
+    width: 888px;
+    padding-top: 70px;
+    box-shadow:inset 0 0 10px  1px #c6c6c6;
+}
+
+.quest_item{
+    width: 780px;
+    height: 190px;
+    float: left;
+    margin: 0 60px 0 35px;
+}
+
+.quest_item_img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: url("../img/sellquesthead.png")no-repeat;
+}
+
+.quest_item:first-child .quest_item_img{
+    background-position: -130px -220px; 
+}
+
+.quest_item:nth-child(2) .quest_item_img{
+    background-position: -190px -220px; 
+}
+
+.quest_item:last-child .quest_item_img{
+    background-position: -250px -220px; 
+}
+.quest_item_con{
+    float: right;
+    width: 700px;
+    padding-top: 12px;
+}
+
+.quest_item_con .p_quest_tit{
+    position: relative;
+    display: inline-block;
+    line-height: 36px;
+    padding: 0 15px;
+    background: #ebebeb;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #495056;
+}
+
+.p_quest_tit i
+{
+    position: absolute;
+    top: 13px;
+    left: -11px;
+    display: block;
+    width: 1px;
+    height: 1px;
+    border: 5px solid transparent;
+    border-right: 5px solid #ebebeb;
+}
+
+.quest_item_con .p_quest_con{
+    font-size: 14px;
+    color: #a5abb2;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.footer {
+    margin-top: 50px;
+    padding: 50px 0 30px;
+    background: #2a2c37;
+  }
+  .footer img{
+    width: 1377px;
+  }

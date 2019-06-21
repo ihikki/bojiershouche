@@ -1,0 +1,121 @@
+[
+    {
+        "Value1":"./img/car1.jpg",
+        "Value2":"丰田RAV4 2015款 2.0L CVT两驱风尚版",
+        "Value3":"2016年",
+        "Value4":"2.2万公里",
+        "Value5":"15.80",
+        "TEMP1":"",
+        "TEMP2":"<i class='i-red'>急售</i><em class='line-through'>21.70万</em>",
+        "TEMP3":"<em class='icon-sale'>急降<br><span>1</span>万</em>"
+    },
+   {
+        "Value1":"./img/car2.jpg",
+        "Value2":"日产 奇骏 2012款 2.0L CVT舒适版 4WD",
+        "Value3":"2013年",
+        "Value4":"10.3万公里",
+        "Value5":"8.80",
+        "TEMP1":"",
+        "TEMP2":"<i class='i-orange'>超值</i><em class='line-through'>23.60万</em>",
+        "TEMP3":""
+    }
+    ,
+	{
+       "Value1":"./img/car3.jpg",
+       "Value2":"大众 宝来 2013款 1.6L 自动舒适型",
+       "Value3":"2013年",
+       "Value4":"8.5万公里",
+       "Value5":"6.75",
+        "TEMP1":"<span class='icon-pad'>|</span>店内直卖",
+        "TEMP2":"<i class='i-red'>急售</i><i class='i-blue'>严选车</i><em class='line-through'>21.70万</em>",
+        "TEMP3":"<em class='icon-sale'>急降<br><span>2400</span>元</em><em class='transfer-city'>东莞过户</em>"
+    }
+    ,
+  {
+        "Value1":"./img/car4.jpg",
+        "Value2":"大众 途观 2015款 1.8TSI 自动两驱舒适版",
+        "Value3":"2016年",
+        "Value4":"4.0万公里",
+        "Value5":"14.00",
+        "TEMP1":"<span class='icon-pad'>|</span>到店服务",
+        "TEMP2":"<i class='i-orange'>超值</i><em class='line-through'>21.70万</em>",
+        "TEMP3":"<em class='icon-new'>新上架</em>"
+    }
+    ,
+   {
+        "Value1":"./img/car5.jpg",
+        "Value2":"比亚迪 唐新能源 2015款 2.0T 四驱旗舰型",
+        "Value3":"2015年",
+        "Value4":"6.1万公里",
+        "Value5":"10.71",
+        "TEMP1":"<span class='icon-pad'>|</span>到店服务",
+        "TEMP2":"<i class='i-orange'>超值</i><i class='i-red'>急售</i><i class='i-orange'>严选车</i>",
+        "TEMP3":"<em class='icon-sale'>急降<br><span>1.88</span>万</em>"
+    }
+	,
+   {
+        "Value1":"./img/car6.jpg",
+        "Value2":"江淮 瑞风M4 2018款 2.0L 手动速运版",
+        "Value3":"2018年",
+        "Value4":"0.6万公里",
+        "Value5":"7.79",
+        "TEMP1":"<span class='icon-pad'>|</span>到店服务",
+        "TEMP2":"<i class='i-green'>准新车</i><i class='i-blue'>严选车</i><em class='line-through'>10.80万</em>",
+        "TEMP3":"<em class='icon-new'>新上架</em>"
+    }
+
+    ,
+   {
+        "Value1":"./img/car7.jpg",
+        "Value2":"吉利 经典帝豪 2013款 两厢 1.8L CVT精英型",
+        "Value3":"2014年",
+        "Value4":"7.9万公里",
+        "Value5":"3.36",
+        "TEMP1":"<span class='icon-pad'>|</span>店内直卖",
+        "TEMP2":"<i class='i-orange'>超值</i><i class='i-blue'>严选车</i><em class='line-through'>9.70万</em>",
+        "TEMP3":"<em class='icon-new'>新上架</em>"
+    }
+
+    ,
+   {
+        "Value1":"./img/car8.jpg",
+        "Value2":"Jeep 自由客 2012款 2.4 运动版(进口)",
+        "Value3":"2012年",
+        "Value4":"9.1万公里",
+        "Value5":"9.80",
+        "TEMP1":"<span class='icon-pad'>|</span>到店服务",
+        "TEMP2":"<i class='i-blue'>严选车</i><em class='line-through'>26.70万</em>",
+        "TEMP3":""
+    },
+	{
+        "Value1":"./img/car8.jpg",
+        "Value2":"Jeep 自由客 2012款 2.4 运动版(进口)",
+        "Value3":"2012年",
+        "Value4":"9.1万公里",
+        "Value5":"9.80",
+        "TEMP1":"<span class='icon-pad'>|</span>到店服务",
+        "TEMP2":"<i class='i-blue'>严选车</i><em class='line-through'>26.70万</em>",
+        "TEMP3":""
+    },
+    {
+        "Value1":"./img/car8.jpg",
+        "Value2":"Jeep 自由客 2012款 2.4 运动版(进口)",
+        "Value3":"2012年",
+        "Value4":"9.1万公里",
+        "Value5":"9.80",
+        "TEMP1":"<span class='icon-pad'>|</span>到店服务",
+        "TEMP2":"<i class='i-blue'>严选车</i><em class='line-through'>26.70万</em>",
+        "TEMP3":""
+    },
+    {
+        "Value1":"./img/car8.jpg",
+        "Value2":"Jeep 自由客 2012款 2.4 运动版(进口)",
+        "Value3":"2012年",
+        "Value4":"9.1万公里",
+        "Value5":"9.80",
+        "TEMP1":"<span class='icon-pad'>|</span>到店服务",
+        "TEMP2":"<i class='i-blue'>严选车</i><em class='line-through'>26.70万</em>",
+        "TEMP3":""
+    }
+    
+]

@@ -1,0 +1,510 @@
+.header .adv{
+    width: 1200px;
+    height: 120px;
+    background: rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+}
+.main_content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.selected{
+    width: 1200px;
+    height: 259px;
+    margin: 0 auto;
+}
+
+.selected_top{
+    height: 59px;
+}
+
+.selected_top p{
+float: left;
+color:#495056;
+font-size: 14px;
+line-height: 54px;
+}
+.selected_top .search{
+    float: right;
+    margin-top: 18px;
+}
+
+.search input[type="text"]{
+    width: 240px;
+    height: 32px;
+    border: 1px solid #ccc;
+    float: left;
+    text-indent: 15px;
+}
+
+.search input[type="button"]{
+    width: 37px;
+    height: 32px;
+    float: left;
+    background:url("../img/sprite3.png") no-repeat;
+    background-position: 0 0;
+    background-color: #ccc;
+}
+
+.selected_bottom>div{
+    height: 50px;
+    border-right:1px solid #ccc;
+    border-top:1px solid #ccc;
+}
+
+.moreselected{
+    border-bottom: 1px solid #CCC;
+    text-align: center;
+}
+
+.carsprice form{
+    padding-top: 15px;
+}
+
+.sel_tit{
+    width: 70px;
+}
+
+.sel_tit{
+    float: left;
+    width: 70px;
+    height: 100%;
+    line-height: 50px;
+    font-size: 14px;
+    color: #7a838d;
+    text-align: center;
+    background: #fafafa;
+}
+
+.selectlist{
+    float: left;
+    height: 20px;
+    padding: 15px 0 15px 6px;
+}
+.selectlist li{
+    float: left;
+}
+.selectlist li a{
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 6px;
+    color: #495056;
+    margin: 0 8px;
+}
+.selectlist li.active a{
+color: #fff;
+background: #22ac38
+}
+
+.dd-sel{
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #495056;
+    width: 78px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.selectlist li i{
+    background: url("../img/sprite3.png") no-repeat;
+    float: right;
+    width: 11px;
+    height: 6px;
+    line-height: 0;
+    font-size: 0;
+    margin-top: 10px;
+    background-position: -40px 0;
+}
+
+.dd-option{
+    display: none;
+    position: absolute;
+    top: 27px;
+    left: 0;
+    z-index: 21;
+    width: 88px;
+    height: auto;
+    padding: 5px 0;
+    background: #fff;
+    border: 1px solid #22ac38;
+}
+
+.dd-option a {
+    padding: 0 0 0 5px;
+    height: 26px;
+    line-height: 26px;
+    color: #495056;
+    font-size: 14px;
+}
+
+.dd-option a, li.cur .dd-option {
+    display: block;
+}
+
+li.cur .dd-option{
+    border: 1px solid #22ac38;
+}
+li.cur .dd-option a:hover{
+  background: #22ac38;
+}
+.moreselected .selectlist{
+    padding-top: 8px;
+}
+.moreselected li.cur{
+    position: relative;
+}
+.moreselected li{
+float: left;
+margin: 5px 12px 5px 0;
+}
+
+.screen-em, .screen-price {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+    color: #495056;
+}
+
+.screen-price {
+    width: 38px;
+    border: 1px solid #e6e6e6;
+    font-size: 12px;
+    margin-top: -1px;
+}
+
+.screen-em {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.price-btn{
+    float: left;
+    width: 54px;
+    height: 22px;
+    line-height: 18px;
+    font-size: 12px;
+    margin-top: -1px;
+    margin-left: 5px;
+    background: #f6fcf7;
+    color: #22ac38;
+    border: 1px solid #22ac38;
+    cursor: pointer;
+}
+
+.show-btn{
+  float: left;
+  width: 190px;
+  height: 22px;
+  line-height: 18px;
+  font-size: 12px;
+  margin-top: -1px;
+  margin-left: 5px;
+  background: #f6fcf7;
+  color: red;
+  border: 1px solid red;
+  display: none;
+}
+.hadselect{
+    padding: 8px 0;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.hadselect>span{
+    width:79px;
+    float: left;
+    padding: 0 3px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #a5abb2;
+}
+
+.hs_choose{
+    float: left;
+    max-width: 850px;
+}
+
+.hs_choose_li{
+    float: left;
+    margin: 2px 4px 2px 0;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 5px 0 8px;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hs_choose_li a{
+    color: #22ac38;
+}
+
+
+.hs_choose_li a i{
+    background-image: url("../img/sprite3.png");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-clip: content-box;
+    float: right;
+    width: 8px;
+    height: 8px;
+    line-height: 0;
+    font-size: 0;
+    padding:8px 5px;
+    background-position: -65px -100px;
+}
+
+.hs_choose_li a span{
+    color: #495056;
+}
+
+.sort_way{
+    height: 57px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+
+.sort_way span{
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    padding: 3px 10px 0;
+    font-size: 22px;
+    color: #495056
+}
+
+.sort_way_ul{
+    float: right;
+    width: 365px;
+    height: 28px;
+    margin-top: 12px;
+}
+
+.sort_way_ul li{
+    float: left;
+    width: 72px;
+    height: 18px;
+    margin-top: 5px;
+    line-height: 18px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    border-left: 1px solid #e6e6e6
+}
+
+.sort_way_ul li a{
+    color:#495056;
+}
+
+.sort_way_ul li a.active, .sort_way_ul li a:hover {
+    color: #22ac38;
+}
+
+.fenye{
+    text-align: center;
+}
+
+.allcar{
+  margin-bottom: 30px;
+}
+
+.carlist {
+    width: 1220px;
+    margin-left: -20px;
+  }
+
+  .carlist li {
+    margin-left: 20px;
+    margin-bottom: 19px;
+    background: #fff;
+    float: left;
+  }
+
+  .carlist li a.car-a {
+    display: block;
+    width: 287px;
+    height: 287px;
+    padding: 9px 8px;
+    border: 1px solid #fff;
+    position: relative;
+  }
+
+  .carlist li a.car-a {
+    width: 285px;
+    height: 319px;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+  }
+  
+  .carlist li:hover a.car-a {
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, .12);
+  }
+  
+  .carlist li a:hover {
+    color: #495056;
+  }
+  
+  .carlist img {
+    border: none;
+    display: block;
+    width: 285px;
+    height: 193px;
+  }
+  
+  .car-info {
+    height: 50px;
+    padding-bottom: 25px;
+    position: relative;
+  }
+  
+  .carlist .car-info {
+    width: 100%;
+    height: 126px;
+    border: 1px solid rgba(0,0,0,.05);
+    box-sizing: border-box;
+  }
+  
+  .carlist li a.car-a .t {
+    font-size: 17px;
+    color: #495056;
+    font-weight: 400;
+    padding: 1px 0 6px 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .carlist li a.car-a .t {
+    padding: 20px 20px 6px;
+  }
+  
+  .carlist li a.car-a .t-i {
+    color: #a5abb2;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+  }
+  
+  .carlist li .t-price {
+    height: 30px;
+    font-size: 20px;
+    color: #fa5428;
+    padding-left: 4px;
+    overflow: hidden;
+  }
+  
+  .carlist li .t-price, .carlist li a.car-a .t-i {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .carlist li a.car-a .t-i .icon-pad {
+    display: inline-block;
+    font-size: 12px;
+    width: 14px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 20px;
+  }
+  
+  .t-price p {
+    float: left;
+    line-height: 30px;
+  }
+  
+  .t-price em, .t-price span {
+    font-size: 14px;
+  }
+  
+  .t-price i {
+    float: right;
+    width: 46px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 0 0 5px;
+  }
+  
+  .t-price i.i-red {
+    color: #f88368;
+    background: #ffeae5;
+  }
+  
+  .t-price i.i-orange {
+    color: #ff9650;
+    background: #ffeeda;
+  }
+  .t-price i.i-blue {
+    color: #d7a844;
+    background: #fcf2d5;
+  }
+  .t-price i.i-green {
+    color: #3fc56e;
+    background: #e8f6ed;
+  }
+  .t-price em {
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: #a5abb2;
+  }
+  .t-price em.line-through {
+    text-decoration: line-through;
+  }
+  
+  .icon-new, .icon-sale {
+    background-image: url("../img/sprite.png");
+    background-size: 451px 300px;
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    top: -5px;
+    left: 11px;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 8px 0 10px;
+  }
+  
+  .icon-sale {
+    height: 40px;
+    line-height: 17px;
+    padding: 7px 0 10px;
+    background-position: -100px -100px;
+  }
+  
+  .icon-new {
+    background-position: -36px -100px;
+    line-height: 48px;
+    padding: 0;
+  }
+  
+  .transfer-city {
+    position: absolute;
+    right: 0;
+    top: 168px;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 8px;
+    background: #4b4c4b;
+    background: rgba(0,0,0,.5);
+    font-size: 14px;
+    color: #fff;
+  }
+
